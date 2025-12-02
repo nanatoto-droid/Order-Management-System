@@ -4,7 +4,7 @@
     <form action="" method = "POST">
         {% csrf_token %}
 
-        <!-- loop pat pee attribute twy a kone htote -->
+        <!-- -->
         {% for input in form %}        
             <div class="mb-3">
                 {{input.label}}
@@ -13,7 +13,7 @@
             </div>
         {% endfor %} 
         
-        <!-- ko lo chin tae field ko ta khu chin ce htote
+        <!-- 
         {{form.username.label}}
         {{form.username}}
         -->
